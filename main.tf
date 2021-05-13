@@ -125,7 +125,7 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-    Billing = "nope"
+    Billable = "nope"
     Department = "ZIGLaunch"
   }
 }
